@@ -16,3 +16,17 @@
     display: flex;
     justify-content: space-around;
 }
+
+.container{
+    width: 50vw;
+    height: max(200px ,75vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    height: max(30%,200px);
+    width: max(50%,400px);
+    display: inline;
+}
