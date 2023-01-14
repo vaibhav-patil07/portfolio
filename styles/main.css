@@ -5,12 +5,17 @@
 }
 
 .red-border{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 .blue-border{
-    border: 1px solid blue;
+    border: 0px solid blue;
 }
-
+.body--background {
+    background-image: url("/images/background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1A1A1A;
+}
 .nav{
     width: 50vw;
     display: flex;
@@ -69,6 +74,7 @@
     width: 50vw;
     justify-content: space-around;
     align-items: flex-start;
+    
 }
 
 .social__icon{
@@ -78,6 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0px 50px 5px #000000;
 }
 .social__icon:hover {
     background-color: #735896;
