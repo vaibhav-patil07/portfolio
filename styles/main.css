@@ -42,4 +42,11 @@
     height: 80px;
     width: 80px;
     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials_icon__image{
+    height: 62px;
 }
