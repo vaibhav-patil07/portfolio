@@ -170,7 +170,9 @@
 .hobby--image:hover{
     opacity: 100%;
 }
-
+.about__work-experience{
+    padding-bottom: 1%;
+}
 .about__work-experience-cards{
     width: 100%;
 }
@@ -183,10 +185,27 @@
     border-radius: 4%/15%;
     justify-content: space-around;
 }
-
 .about--work-card-title{
     font-size: 1.2rem;
+    margin: 1%;
 }
 .about--work-card-content{
     font-size: 1rem;
+    padding: 1%;
+}
+.tech-stack{
+    margin-top: 1%;
+    width: 100%;
+    justify-content: space-around;
+}
+.tech{
+    padding: 1%;
+    font-size: 0.9rem;
+    font-style: italic;
+    border: 2px solid;
+    border-image:  linear-gradient(45deg, #353434, rgb(89, 0, 255)) 1;  
+    border-radius: 20%/50%;
+}   
+.about__achivements-list{
+    margin: 2%;
 }
