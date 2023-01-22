@@ -186,6 +186,7 @@
     justify-content: space-around;
 }
 .about--work-card-title{
+    font-weight: bolder;
     font-size: 1.2rem;
     margin: 1%;
 }
@@ -207,5 +208,15 @@
     border-radius: 20%/50%;
 }   
 .about__achivements-list{
-    margin: 2%;
+    margin-top: 2%;
+}
+
+.projects{
+    width: 100%;
+    color: #dddddd;
+}
+
+.project__cards{
+    margin: 4% 100px;
+    font-size: 1.2rem;
 }
