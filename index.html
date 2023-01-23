@@ -11,18 +11,20 @@
     <title>Homepage</title>
 </head>
 
-<body class="background--color  body--background">
+<body id="Home" class="background--color  body--background">
 
     <header>
         <nav class="nav display--flex  flex--align-i-center">
             <div class="nav__logo-name display--flex flex--align-i-center">
-                <img class="nav__logo" src="./images/vp-logo.png" alt="logo of website">
+                <a href="#Home">
+                    <img class="nav__logo" src="./images/vp-logo.png" alt="logo of website">
+                </a>
                 <div class="nav__title">Vaibhav Patil</div>
             </div>
             <div class="nav__div display--flex flex--align-i-center">
-                <a class="nav__item display--flex flex--justify-c-center flex--align-i-center" href="#">Home</a>
-                <a class="nav__item display--flex flex--justify-c-center flex--align-i-center" href="#">About</a>
-                <a class="nav__item display--flex flex--justify-c-center flex--align-i-center" href="#">Projects</a>
+                <a class="nav__item display--flex flex--justify-c-center flex--align-i-center" href="#Home">Home</a>
+                <a class="nav__item display--flex flex--justify-c-center flex--align-i-center" href="#About">About</a>
+                <a class="nav__item display--flex flex--justify-c-center flex--align-i-center" href="#Projects">Projects</a>
             </div>
         </nav>
     </header>
@@ -46,7 +48,7 @@
                 </div>
             </div>
         </div>
-        <div class="about red-border display--flex flex--direction-col flex--align-i-center">
+        <div id="About" class="about red-border display--flex flex--direction-col flex--align-i-center">
             <div class="about__title">About</div>
             <div class="about__me section--top-margin">
                 <div class="about__me-text border--bottom">
@@ -112,7 +114,7 @@
                 </div>
             </div>
         </div>
-        <div class="projects display--flex flex--direction-col flex--align-i-center blue-border">
+        <div id="Projects" class="projects display--flex flex--direction-col flex--align-i-center blue-border">
             <div class="about__title">Projects</div>
                 <div class="project__cards display--flex flex--justify-c-center">
                     <div class="about--work-card display--flex flex--direction-col flex--align-i-center">
