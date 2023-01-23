@@ -236,6 +236,9 @@
 }
 
 @media only screen and (max-width: 768px){
+    .body--background {
+        background-image: none;
+    }
     .header{
         height: 15vh;
     }
