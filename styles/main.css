@@ -155,7 +155,7 @@
 }
 .about__me{
     color: #dddddd;
-    margin: 4% 100px;
+    margin: 4% 7%;
     font-size: 1.2rem;
 }
 .about__me-text{
@@ -231,7 +231,7 @@
 }
 
 .project__cards{
-    margin: 4% 100px;
+    margin: 4% 7%;
     font-size: 1.2rem;
 }
 
@@ -248,8 +248,14 @@
         margin-bottom: 5%;
     }
     .nav__logo-name{
-        width: auto;
+        width: 100%;
         height: 7vh;
+        justify-content: center;
+    }
+    .nav__title{
+        visibility: visible;
+        padding: 2%;
+        margin: 1%;
     }
     .nav__div{
         height: 8vh;
@@ -261,6 +267,7 @@
     .about__work-experience-cards{
         flex-direction: column;
         align-items: center;
+        overflow: hidden;
     }
     .about--work-card{
         width: 100%;
@@ -274,5 +281,11 @@
     }
     .socials{
         width: 100%;
+    }
+    #About{
+        scroll-margin-top: 15vh;
+    }
+    #Projects{
+        scroll-margin-top: 15vh;
     }
 }
