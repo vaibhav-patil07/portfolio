@@ -14,10 +14,10 @@
     scroll-margin-top: 5vh;
 }
 .red-border{
-    border: 1px solid red;
+    border: 0px solid red;
 }
 .blue-border{
-    border: 1px solid blue;
+    border: 0px solid blue;
 }
 .border--bottom{
     border-bottom: 1px solid #ffffff56;
@@ -68,9 +68,9 @@
     width: 100%;
 }
 .nav__div{
-    height: 100%;
+    height: 10vh;
     width: 90%;
-    justify-content: end;
+    justify-content: space-around;
 }
 .nav__logo-container{
     margin: 2% 4%;
