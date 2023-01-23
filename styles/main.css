@@ -7,6 +7,12 @@
 :root{
     scroll-behavior: smooth;
 }
+#About{
+    scroll-margin-top: 5vh;
+}
+#Projects{
+    scroll-margin-top: 5vh;
+}
 .red-border{
     border: 0px solid red;
 }
@@ -51,6 +57,7 @@
     height: 10vh;
     width: 100%;
     background-color: #1A1A1A;
+    position: fixed;
 }
 .nav__logo-name{
     height: 100%;
