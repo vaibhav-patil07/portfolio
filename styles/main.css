@@ -25,6 +25,9 @@
 .display--flex{
     display: flex;
 }
+.flex--wrap{
+    flex-wrap: wrap;
+}
 .flex--direction-col{
     flex-direction: column;
 }
@@ -255,6 +258,30 @@
     margin: 4% 7%;
     font-size: 1.2rem;
 }
+#certificates{
+    margin-bottom: 10px;
+}
+.certificate-card{
+    background-color: #1A1A1A;
+    width: 300px;
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    margin: 5px;
+    transition: all 0.4s ease-in-out;
+}
+.certificate-card:hover{
+    z-index: 100;
+    transform: scale(1.5);
+}
+.certificate-title{
+    text-align: center;
+    margin: 5px 0;
+}
+.certificate-image{
+    width: 100%;
+}
 
 @media only screen and (max-width: 768px){
     .body--background {
@@ -278,12 +305,23 @@
         padding: 2%;
         margin: 1%;
     }
+    .nav__item{
+        width: 50px;
+        font-size: 0.9rem;
+        margin: 5px;
+    }
     .nav__div{
+        margin: 0;
+        padding: 0;
         height: 8vh;
+        justify-content: space-around;
     }
     .container{
         height:auto;
         width: 100%;
+    }
+    .about__title{
+        font-size: 2.5rem;
     }
     .about__work-experience-cards{
         flex-direction: column;
@@ -309,5 +347,11 @@
     }
     #Projects{
         scroll-margin-top: 15vh;
+    }
+    .certificate-card{
+        width: 200px;
+    }
+    .certificate-card:hover{
+        transform: scale(1.2);
     }
 }
