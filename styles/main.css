@@ -37,9 +37,19 @@
 .flex--align-i-center{
     align-items: center;
 }
+.flex--justify-c-end{
+    align-items: end;
+}
 
 .justify--self-end{
     justify-self: end;
+}
+.enlarge{
+    position: relative;
+    transition: all 0.2s ease-in-out;
+}
+.enlarge:hover{
+    transform: scale(1.01);
 }
 .background--color{
     background-color: #1A1A1A;
@@ -90,16 +100,16 @@
     font-family: 'Montserrat', 'sans-serif';
     font-size: 1.2rem;
     border-radius: 5px;
-    margin: 2% 7%;
+    margin: 2% 2%;
     height: 70%;
     width: 100px;
 }
 
 .nav__item:hover{
-    box-shadow: 0 0 5px 2px #353434;
+    box-shadow: 0 0 5px 2px #8a8a8a;
 }
 .nav__item:active{
-    color: #dddddd;
+    color: #454545;
 }
 
 .container{
@@ -140,13 +150,17 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 0px 50px 5px #000000;
+    position: relative;
+    top: 0;
+    transition: all 0.2s ease-in-out;
 }
 .social__icon:hover {
+    top: 5px;
     background-color: #735896;
     box-shadow: 0 0px 15px 8px #9883b3
 }
 .social__icon__image{
-    height: 60px;
+    height: 50px;
 }
 .about__title{
     margin-top: 3%;
@@ -196,8 +210,14 @@
     margin: 1%;
     padding: 2% 2%;
     box-shadow: 0 0 10px 1px #dddddd4f;
-    border-radius: 10%/20%;
+    border-radius: 20px;
     justify-content: space-around;
+    position: relative;
+    top: 0;
+    transition: all 0.2s ease-in-out;
+}
+.about--work-card:hover{
+    transform: scale(1.05);
 }
 .about--work-card-title{
     font-weight: bolder;
@@ -211,6 +231,7 @@
 .tech-stack{
     margin-top: 1%;
     width: 100%;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .tech{
@@ -268,6 +289,7 @@
         flex-direction: column;
         align-items: center;
         overflow: hidden;
+        padding: 4px;
     }
     .about--work-card{
         width: 100%;
